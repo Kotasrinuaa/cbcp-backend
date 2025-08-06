@@ -4,6 +4,7 @@ import { User } from '../models/User';
 
 interface AuthRequest extends Request {
   user?: any;
+  headers: Request['headers'];
 }
 
 export const authenticateToken = async (
