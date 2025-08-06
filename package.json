@@ -30,5 +30,8 @@
   "devDependencies": {
     "nodemon": "^3.0.2",
     "ts-node": "^10.9.1"
+  },
+  "openssl": {
+    "command": "rand -base64 32"
   }
 }
