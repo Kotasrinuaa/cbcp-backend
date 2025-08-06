@@ -47,8 +47,9 @@ app.get('/health', (req, res) => {
   });
 });
 
-// API routes
+// API routes - support both /api/auth and /auth paths for backward compatibility
 app.use('/api/auth', authRoutes);
+app.use('/auth', authRoutes);
 
 // 404 handler
 app.use('*', (req, res) => {
